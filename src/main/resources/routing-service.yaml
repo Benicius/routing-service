@@ -17,28 +17,28 @@ airport:
         airplane-capacity: 6304
         target-type: NATIONAL-NORTH
         airplane-port: MID
+    international:
       - terminal-number: 05
         airplane-capacity: 2000
-        target-type: NATIONAL-SOUTH
+        target-type: INTERNATIONAL-SOUTH
         airplane-port: SMALL
-    international:
       - terminal-number: 06
         airplane-capacity: 13450
-        target-type: NATIONAL-SOUTH
+        target-type: INTERNATIONAL-SOUTH
         airplane-port: HIGH
       - terminal-number: 07
         airplane-capacity: 25000
-        target-type: NATIONAL-NORTH
+        target-type: INTERNATIONAL-NORTH
         airplane-port: SMALL
       - terminal-number: 08
         airplane-capacity: 20410
-        target-type: NATIONAL-SOUTH
+        target-type: INTERNATIONAL-SOUTH
         airplane-port: MID
       - terminal-number: 09
         airplane-capacity: 10500
-        target-type: NATIONAL-NORTH
+        target-type: INTERNATIONAL-NORTH
         airplane-port: MID
       - terminal-number: 10
         airplane-capacity: 23600
-        target-type: NATIONAL-SOUTH
+        target-type: INTERNATIONAL-SOUTH
         airplane-port: SMALL
