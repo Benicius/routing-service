@@ -1,4 +1,4 @@
-package com.bdsystems.airport.routing_service.configs;
+package com.bdsystems.airport.routing_service.configs.properties;
 
 import lombok.Data;
 

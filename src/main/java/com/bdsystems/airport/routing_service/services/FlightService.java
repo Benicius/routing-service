@@ -1,6 +1,6 @@
 package com.bdsystems.airport.routing_service.services;
 
-import com.bdsystems.airport.routing_service.configs.AirportProperties;
+import com.bdsystems.airport.routing_service.configs.properties.AirportProperties;
 import org.springframework.stereotype.Service;
 
 @Service

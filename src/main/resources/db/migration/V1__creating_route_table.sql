@@ -3,7 +3,7 @@ CREATE TABLE location (
   target VARCHAR(255) NOT NULL
 );
 
-INSERT INTO location (id, target, ) VALUES
+INSERT INTO location (id, target) VALUES
   (1, 'AIR_001'),
   (2, 'AIR_002'),
   (3, 'AIR_003'),
@@ -23,15 +23,15 @@ INSERT INTO location (id, target, ) VALUES
   (17, 'AIR_017'),
   (18, 'AIR_018'),
   (19, 'AIR_019'),
-  (20, 'AIR_020')
-  (21, 'AIR_021')
-  (22, 'AIR_022')
-  (23, 'AIR_023')
-  (24, 'AIR_024')
-  (25, 'AIR_025')
-  (26, 'AIR_026')
-  (27, 'AIR_027')
-  (28, 'AIR_028')
+  (20, 'AIR_020'),
+  (21, 'AIR_021'),
+  (22, 'AIR_022'),
+  (23, 'AIR_023'),
+  (24, 'AIR_024'),
+  (25, 'AIR_025'),
+  (26, 'AIR_026'),
+  (27, 'AIR_027'),
+  (28, 'AIR_028'),
   (29, 'AIR_029');
 
 
@@ -57,17 +57,17 @@ CREATE TABLE route_details (
 INSERT INTO route_details (id, source_location, next_location, route_id, priority) VALUES
   (1, 'AIR_001', 'AIR_003', NULL, 'DEFAULT'),
   (2, 'AIR_003', 'AIR_004', 2, 'NORTH'),
-  (2, 'AIR_003', 'AIR_005', NULL, 'DEFAULT'),
-  (3, 'AIR_005', 'AIR_007', NULL, 'DEFAULT'),
-  (4, 'AIR_007', 'AIR_020', 3, 'INTERNATIONAL_SOUTH'),
-  (5, 'AIR_007', 'AIR_017', NULL, 'DEFAULT'),
-  (5, 'AIR_007', 'AIR_009', 1, 'NORTH'),
-  (6, 'AIR_017', 'AIR_018', 2, 'NATIONAL_SOUTH'),
-  (7, 'AIR_017', 'AIR_019', 1, 'INTERNATIONAL_NORTH'),
-  (8, 'AIR_018', 'AIR_021', NULL, 'DEFAULT'),
-  (8, 'AIR_019', 'AIR_022', NULL, 'DEFAULT'),
-  (8, 'AIR_009', 'AIR_011', NULL, 'DEFAULT'),
-  (8, 'AIR_011', 'AIR_012', 2, 'INTERNATIONAL_SOUTH'),
-  (8, 'AIR_011', 'AIR_013', 2, 'NATIONAL_NORTH'),
-  (8, 'AIR_012', 'AIR_023', NULL, 'DEFAULT'),
-  (8, 'AIR_013', 'AIR_024', NULL, 'DEFAULT');
+  (3, 'AIR_003', 'AIR_005', NULL, 'DEFAULT'),
+  (4, 'AIR_005', 'AIR_007', NULL, 'DEFAULT'),
+  (5, 'AIR_007', 'AIR_020', 3, 'INTERNATIONAL_SOUTH'),
+  (6, 'AIR_007', 'AIR_017', NULL, 'DEFAULT'),
+  (7, 'AIR_007', 'AIR_009', 1, 'NORTH'),
+  (8, 'AIR_017', 'AIR_018', 2, 'NATIONAL_SOUTH'),
+  (9, 'AIR_017', 'AIR_019', 1, 'INTERNATIONAL_NORTH'),
+  (10, 'AIR_018', 'AIR_021', NULL, 'DEFAULT'),
+  (11, 'AIR_019', 'AIR_022', NULL, 'DEFAULT'),
+  (12, 'AIR_009', 'AIR_011', NULL, 'DEFAULT'),
+  (13, 'AIR_011', 'AIR_012', 2, 'INTERNATIONAL_SOUTH'),
+  (14, 'AIR_011', 'AIR_013', 2, 'NATIONAL_NORTH'),
+  (15, 'AIR_012', 'AIR_023', NULL, 'DEFAULT'),
+  (16, 'AIR_013', 'AIR_024', NULL, 'DEFAULT');

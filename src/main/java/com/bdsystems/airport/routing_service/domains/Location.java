@@ -19,5 +19,4 @@ public class Location {
 	private Integer id;
 
 	private String target;
-	private String priority;
 }

@@ -21,4 +21,5 @@ public class RouteDetails {
 	private String sourceLocation;
 	private String nextLocation;
 	private Integer routeId;
+	private String priority;
 }
