@@ -10,9 +10,8 @@ public class AsyncServiceImpl {
 	@Value( "${spring.kafka.topic}")
 	private String topic;
 
-	@KafkaListener(topics = "NewTopic",
-					groupId = "group_id")
+	@KafkaListener(topics = "NewTopic")
 	public void consume(String message) {
-		System.out.println("message" + message);
+		System.out.println("message: " + message);
 	}
 }
