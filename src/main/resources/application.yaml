@@ -1,13 +1,6 @@
 server:
   port: 8090
 
----
-spring:
-  kafka:
-    bootstrap-address: 127.0.0.1:9092
-    group-id: group:id
-    topic: "teste.de.topic"
----
 spring:
   application:
     name: product-service
