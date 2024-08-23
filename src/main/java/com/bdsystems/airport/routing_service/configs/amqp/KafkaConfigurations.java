@@ -1,5 +1,6 @@
 package com.bdsystems.airport.routing_service.configs.amqp;
 
+import com.bdsystems.airport.routing_service.services.AsyncConsumer;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.context.annotation.Bean;
@@ -21,7 +22,7 @@ public class KafkaConfigurations {
 		config.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG,
 						"127.0.0.1:9092");
 		config.put(ConsumerConfig.GROUP_ID_CONFIG,
-						"group_id");
+						"check-in");
 		config.put(
 						ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG,
 						StringDeserializer.class);
